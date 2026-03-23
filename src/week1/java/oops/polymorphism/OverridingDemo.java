@@ -1,6 +1,9 @@
-package week1.java.basics;
+package week1.java.oops.polymorphism;
 
-public class PolymorphismOverridingDemo {
+import week1.java.oops.inheritance.Animal;
+import week1.java.oops.inheritance.Cat;
+
+public class OverridingDemo {
     public static void main(String[] args) {
 
         Animal obj = new Cat();   // Parent reference, child object

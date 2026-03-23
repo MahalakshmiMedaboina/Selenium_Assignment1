@@ -1,4 +1,4 @@
-package week1.java.basics;
+package week1.java.oops.encapsulation;
 
 // Topic: Encapsulation
 

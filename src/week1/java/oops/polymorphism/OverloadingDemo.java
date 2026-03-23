@@ -1,6 +1,6 @@
-package week1.java.basics;
+package week1.java.oops.polymorphism;
 
-public class PolymorphismOverloadingDemo {
+public class OverloadingDemo {
     // Method with 2 parameters
     public void add(int a, int b) {
         System.out.println("Sum of 2 numbers: " + (a + b));
@@ -13,7 +13,7 @@ public class PolymorphismOverloadingDemo {
 
     public static void main(String[] args) {
 
-        PolymorphismOverloadingDemo obj = new PolymorphismOverloadingDemo();
+        OverloadingDemo obj = new OverloadingDemo();
 
         obj.add(10, 20);
         obj.add(10, 20, 30);
